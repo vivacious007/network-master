@@ -1,0 +1,23 @@
+{
+  "name": "NetworkNotifier",
+  "version": "1.0",
+  "manifest_version": 1,
+  "developer":"Priyam Srivastava"
+  "description": "Receive notifications when the internet connection of you system goes down.",
+  "browser_action": {
+    "default_icon": "48x48.png",
+    "default_popup": "popup.html",
+    "default_title": "NetworkNotifier"
+  },
+ "icons": { "16": "16x16.png",
+           "48": "48x48.png",
+          "128": "128x128.png" },
+  "permissions":[
+    "background",
+    "notifications"
+  ],
+  "web_accessible_resources": [
+    "screamwoman.ogg", "online.png", "offline.png"
+  ],
+  "background": { "scripts": ["background.js"] }
+}

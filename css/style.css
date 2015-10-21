@@ -1,0 +1,11 @@
+.offline-style{
+	color: red;
+}
+
+.online-style{
+	color: green;
+}
+
+.offline-style, .online-style{
+	font-weight: bold;
+}
